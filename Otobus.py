@@ -6,13 +6,7 @@ class Otobus:
         self.nereye = nereye
         self.doluKoltuk = doluKoltuk
         class Otobus:
-    """Otobus bilet satis takip sinifi"""
-    
-    def _init_(self,plaka,nereden,nereye,doluKoltuk):
-        self.plaka = plaka
-        self.nereden = nereden
-        self.nereye = nereye
-        self.doluKoltuk = doluKoltuk    
+    """Otobus bilet satis takip sinifi""" 
     def bilet_sat(self):
         """Otobusteki dolu koltuk sayisini 1 artirir"""
         self.dolukoltuk -= 1
