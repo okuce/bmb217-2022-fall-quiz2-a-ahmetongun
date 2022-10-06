@@ -1,5 +1,9 @@
 class Otobus:
     """Otobus bilet satis takip sinifi"""
+
+    
+    
+
     def _init_(self,plaka,nereden,nereye,koltuk):
         self.plaka = plaka
         self.nereden = nereden
@@ -7,6 +11,10 @@ class Otobus:
         self.koltuk = koltuk
         self.doluKoltuk = 0
         self.bosKoltuk = koltuk
+        
+        
+        
+        
         
     def bilet_sat(self):
         """Otobusteki dolu koltuk sayisini 1 artirir"""
@@ -18,4 +26,4 @@ class Otobus:
         
     def durum_yaz(self):
         """otobusun guzergahini, plakasini,bos ve dolu koltuk sayisini yazdirir"""    
-        print(self.nereden,",",self.nereye,",",self.plaka,self.doluKoltuk,",",self.bosKoltuk)
+        print(self.nereden,",",self.nereye,",",self.plaka,",",self.bosKoltuk,", ",self.doluKoltuk)
